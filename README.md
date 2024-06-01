@@ -25,7 +25,7 @@ To run this program, you can use Remix, an online Solidity IDE. Follow these ste
 
 solidity
 Copy code
-
+```
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
@@ -52,7 +52,7 @@ contract MyToken {
         token_map[_addr] -= _value;
     }
 }
-
+```
 4. To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.18" (or another compatible version), and then click on the "Compile MyToken.sol" button.
 5. Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the MyToken contract from the dropdown menu, and then click on the "Deploy" button.
 6. Once the contract is deployed, you can interact with it by calling the mintToken and burnToken functions. Use the interface provided by Remix to input the necessary parameters and execute the functions.
@@ -70,8 +70,9 @@ For additional help, use the Remix documentation or community forums.
 ## Authors
 
 Rishav Kumar
+
 @RishuSo41048171
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License.
